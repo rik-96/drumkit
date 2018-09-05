@@ -1,0 +1,25 @@
+body{
+  background-image: url("drum.jpeg");
+  background-size: cover;
+}
+.keyboard{
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.key{
+  margin: 4% 20%;
+  padding: 10px 50px;
+  border: 2px solid #ffff6f;
+  color: #fefe00;
+  border-radius: 10px;
+  transition: all 0.07s;
+  text-shadow: 0 0 5px grey;
+  text-align: center;
+}
+
+.playing{
+  transform: scale(1.1);
+  background-color: #888;
+  box-shadow: 0 0 10px grey;
+}
